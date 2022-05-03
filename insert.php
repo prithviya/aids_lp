@@ -22,7 +22,7 @@ require_once('db.php');
 
       if(mysqli_query($conn, $sql)){
 
-      header('Location: index.html');
+      header('Location: thank.html');
 
       exit;
 
